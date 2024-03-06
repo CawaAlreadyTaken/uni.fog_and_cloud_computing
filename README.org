@@ -33,7 +33,13 @@ you need to change inside the folder and follow the steps from there as they are
 relative to the specific exercise.
 
 
-* Lab00-Requirements
+* Lab00 - Requirements
 - [[file:e00][Exercise 00 - Install required tools]]
 - [[file:e01][Exercise 01 - Generate and upload your SSH key]]
 - [[file:e02][Exercise 02 - Setup an SSH tunnel and use it as a socks proxy in a web Browser]]
+* Lab01 - Reproducible and portable environments (20240306)
+- [[file:e03][Exercise 03 - Start and Check your 1st Environment]]
+- [[file:e04][Exercise 04 - Customise and Share the Environment]]
+- [[file:e05][Exercise 05 - Advanced deployment: Provision with Vagrant and Configure with Ansible]]
+- [[file:e06/][Exercise 06 - Learn how-to manage virtual machines on your lab VM]]
+- [[file:e07][Exercise 07 - Deploy a webserver and access the main page via a browser]]
