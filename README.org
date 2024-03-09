@@ -43,3 +43,5 @@ relative to the specific exercise.
 - [[file:e05][Exercise 05 - Advanced deployment: Provision with Vagrant and Configure with Ansible]]
 - [[file:e06/][Exercise 06 - Learn how-to manage virtual machines on your lab VM]]
 - [[file:e07][Exercise 07 - Deploy a webserver and access the main page via a browser]]
+* Lab02.0 - Requirements
+- [[file:e08/][Exercise 08 – Create an OpenStack cluster based on DevStack]]
