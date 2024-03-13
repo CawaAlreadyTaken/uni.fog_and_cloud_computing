@@ -14,6 +14,11 @@ Have a look at the openstack CLI help
 openstack help | less
 #+end_src
 
+*Note:* if you get some nasty warning from =pyhton= when using the OpenStack CLI, you could suppress them with:
+#+begin_src sh
+export PYTHONWARNINGS="ignore"
+#+end_src
+
 Now look at all the openstack CLI commands
 #+begin_src sh
 openstack command list | less
@@ -110,17 +115,6 @@ openstack security group list
 Get details for a given security group
 #+begin_src sh
 openstack security group show $SEC_GROUP_ID
-#+end_src
-
-** Explore Swift service
-List all containers in the Object store
-#+begin_src sh
-openstack container list
-#+end_src
-
-List all objects for a given container
-#+begin_src sh
-openstack object list test
 #+end_src
 
 ** Use CLI on another user or project (optional)
