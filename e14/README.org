@@ -38,6 +38,11 @@ Ensure to authenticate current shell with OpenStack
 #+begin_src sh
 source e14/demo-demo-openrc.sh
 #+end_src
+/Note: It may happen that the/ =ansible-playbook= /command is not yet present in your/ =PATH= /and you got an error saying that Ansible is not found. If this is the case please logout and login back or manually add it to your path with/
+#+begin_src sh
+export PATH="$HOME/.local/bin:$PATH"
+#+end_src
+
 
 Proceed with the provision of your infrastructure
 #+begin_src sh
