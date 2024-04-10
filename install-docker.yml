@@ -6,6 +6,11 @@
     pkg:
     - docker.io
 
+- name: Install the docker-compose package
+  apt:
+    pkg:
+    - docker-compose
+
 - name: Allow user vagrant to use Docker
   user:
     name: vagrant

@@ -8,11 +8,18 @@
 ** Look at the Docker compose instructions
 Look into this file: [[file:docker-compose.yml]] and try to understand what are the main configurations
 
+** Install Docker compose
+Your Docker host may be quite old does not include latest version of Docker compose, so install it
+#+begin_src sh
+sudo apt install docker-compose -y
+docker-compose --version
+#+end_src
+
 ** Proceed with the installation
 On your docker-host move into the exercise folder and install the multi-container website
 #+begin_src sh
 cd /vagrant/e24
-docker compose up -d
+docker-compose up -d
 #+end_src
 
 ** Check output and running containers
@@ -27,8 +34,8 @@ Open =http://localhost= and proceed with minimal installation steps
 ** Tear down the entire stack
 To destroy a multi-container application just type:
 #+begin_src 
-docker compose up
-#docker compose up -d --volumes
+docker-compose down
+#docker compose down -d --volumes
 #+end_src
 
 
