@@ -1,4 +1,4 @@
-* Exercise 15 - Create a Vagant VM for Docker
+* Exercise 15 - Create a Vagrant VM for Docker
   - Description :: Create a dedicated virtual machine to use for as docker host. This VM can be used for multiple exercises.
 * Solutions and Instructions
 ** Ensure you are not running too much environments (recap)
