@@ -79,3 +79,12 @@ relative to the specific exercise.
 - [[file:e34][Exercise 34 - Pod-to-Pod Communications]]
 - [[file:e35][Exercise 35 - External World-To-Pod Communication]]
 - [[file:e36][Exercise 36 - Load Balancing]]
+* Lab08 - Kubernetes 3 (20240508)
+- [[file:e37][Exercise 37 - Volumes]]
+- [[file:e38][Exercise 38 - Namespaces]]
+- [[file:e39][Exercise 39 - Pod placement]]
+* Lab08 - Kubernetes advanced (optional)
+- [[file:e40][Exercise 40 - Install k8s Dashboard]]
+- [[file:e41][Exercise 41 - Install Helm]]
+- [[file:e42][Exercise 42 - NGINX Ingress Controller]]
+- [[file:e43][Exercise 43 - Ingress resource usage]]
