@@ -77,9 +77,6 @@ spec:
     kinds:
       - apiGroups: [""]
         kinds: ["Pod"]
-  parameters:
-    labels:
-      - env
 #+END_SRC
 
 Apply the Constraint:
