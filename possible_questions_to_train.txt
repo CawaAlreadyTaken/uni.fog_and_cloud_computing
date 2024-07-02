@@ -1,0 +1,43 @@
+What is cloud computing
+5 key features of cloud
+Traditional IT vs Cloud Computing
+What is a cloud management system? examples
+What does "cloud native" mean?
+
+What does the pay as you go model bring?
+What are overprovisioning and underprovisioning?
+What are the deployment models? Describe them
+What are the delivery models? Describe them, with examples
+
+Describe layering in a computer system, and the interfaces
+Definitions: Virtual Machine, Host OS, Guest OS, Hypervisor, Virtualisation, Privileged instruction, Sensitive instruction, Hardware Privilege Ring, Trap
+
+Different kinds of CPU virtualisation in x86 (3). Advantages/disadvantages and examples
+Why is x86/x64 said to be "non-virtualizable"?
+What are T&E and DBT
+How does paravirtualization work?
+How does hardware-assisted virtualization work?
+
+Different kinds of memory virtualization
+What is a TLB
+What is a shadow page table
+PPN? MPN? LPN?
+What is EPT/RVI?
+
+Different kinds of I/O virtualization (3)
+What is the MMU? and IOMMU?
+What is the SR-IOV?
+
+Describe the two possible architectures of hypervisors, with examples
+How does the hybrid approach work? Example?
+
+What is lightweight virtualization? Pro-Cons. Examples.
+What are cgroups and namespaces? Features?
+Different kind of namespaces
+Containers vs VMs?
+What is LXC? Features/limitations?
+What is Docker? Features/limitations? Docker vs LXC? What is a Dockerfile?
+What is a union file system? Which UFS does Docker use? How does it work, more or less?
+Advantages of using a union file system?
+
+
