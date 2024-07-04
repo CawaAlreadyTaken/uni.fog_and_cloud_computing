@@ -96,8 +96,10 @@ Difference between traditional and distributed file systems?
 General File System / Google File System?
 How does a write request work in GFS?
 Talk about "Swift"
-Which are the 3 kinds of servers in Swift file system?
-What about storage servers?
+Which are the 3 main kinds of servers in Swift file system?
+Which are the 3 kinds of storage servers?
+Which are the 3 kinds of consistency servers?
+How is a PUT operation performed in Swift? What does it do?
 
 What is a distributed database? ACID? Which features does it have?
 BASE?
