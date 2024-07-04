@@ -9,6 +9,8 @@ What are overprovisioning and underprovisioning?
 What are the deployment models? Describe them
 What are the delivery models? Describe them, with examples
 
+_________________________________________________________________________
+
 Describe layering in a computer system, and the interfaces
 Definitions: Virtual Machine, Host OS, Guest OS, Hypervisor, Virtualisation, Privileged instruction, Sensitive instruction, Hardware Privilege Ring, Trap
 
@@ -39,5 +41,71 @@ What is LXC? Features/limitations?
 What is Docker? Features/limitations? Docker vs LXC? What is a Dockerfile?
 What is a union file system? Which UFS does Docker use? How does it work, more or less?
 Advantages of using a union file system?
+Quickly on why is docker used and orchestration
 
+_________________________________________________________________________
 
+What is a datacentre? Features? Needs? What is north-south traffic? east-west?
+How is a conventional datacentre network organized? Which issues does it face?
+Definitions: Diameter, Bisection bandwidth, Full bisection bandwidth, over-subscription, interconnection network
+
+What is a Clos network? What happens if k < n?
+Describe a k-ary fat tree. How does addressing work? How are routing tables?
+Why fat tree? How to balance traffic flows?
+
+Which communication requirements are there in virtualization?
+3 ways of switching inside of a single server, between VMs. Pros and cons. Hardware vs Software switching
+What is linuxbridge?
+
+ON A SINGLE SERVER:
+How does ip address assignment works for VM/dockers?
+What about additional features? (router, nat, dhcp, firewall..)
+Multi-tenancy
+Tenand-defined network services
+Co-existence of virtual services and host applications (tcp/ip stack)
+
+ON A DC (Datacentre):
+Providing L2 connectivity to tenant (so that he can control L3)
+Why wouldn't VLAN work?
+Providing L3 connectivity to tenant
+Overlay vs Direct Routing?
+
+_________________________________________________________________________
+
+Possible container attack vectors?
+Some general security principles?
+Dockerfile best practices?
+Image storage/deployment security? What is an immutable container?
+Strenghtening container isolation: Seccomp? Apparmor? SELinux?
+What does the --privileged flag do?
+What are capabilities? How do they work?
+Mounting the docker socket?
+
+What is a secret? What properties should it have? 
+How could we pass it to a container? Different ways
+Profiling/analysing/monitoring containers
+
+Containers security checklist
+
+_________________________________________________________________________
+
+(from performance-at-any-cost to reliability-at-lowest-cost-possible) / (timing requirements) / (data replication)?
+Briefly describe the 3 storage types
+When is block storage useful? Why is it still studied? Example?
+Difference between traditional and distributed file systems?
+General File System / Google File System?
+How does a write request work in GFS?
+Talk about "Swift"
+Which are the 3 kinds of servers in Swift file system?
+What about storage servers?
+
+What is a distributed database? ACID? Which features does it have?
+BASE?
+What is the CAP theorem?
+Describe how Google bigtables work
+What is Chubby, in GBT?
+How do tablets server discovery and monitoring work?
+What does the master do on startup?
+Briefly, how are tablets created or deleted?
+How do write operations work in GBT? And reads?
+Minor/Merging/Major Compactions?
